@@ -1,16 +1,58 @@
-# React + Vite
+# thirtysixstudios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A polished React landing experience for a boutique digital production studio. This project combines smooth scrolling, animated canvas visuals, and an immersive brand presentation using React, GSAP, Tailwind CSS, and Locomotive Scroll.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive React + Vite app
+- Smooth scrolling powered by `locomotive-scroll`
+- Animated theme transitions with `gsap`
+- Canvas-based visual effects
+- Tailwind CSS styling
+- Interactive brand landing sections
+- Custom scroll-aware canvas elements
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- GSAP
+- Locomotive Scroll
+- Tailwind CSS 4
+- ESLint
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+## Development
+```bash
+npm run dev
+```
+## Build
+```bash
+npm run build
+```
+## Preview Production Build
+```bash
+npm run preview
+```
+## Project Structure
+App.jsx — Main app layout, theme toggle, scroll setup, and interactive hero section
+Canvas.jsx — Canvas rendering component with GSAP-driven frame animation
+canvasimages.js — Image source list for canvas animation
+data.js — Canvas positioning and animation metadata
+index.css — Global styles and Tailwind base styling
+vite.config.js — Vite configuration
+package.json — Dependencies and scripts
+
+## Notes
+The theme toggle switches between light and dark styling while updating the body background with GSAP.
+Clicking the main hero heading triggers a canvas reveal animation and a bold accent transition.
+The app uses locomotive-scroll for a fluid, physics-based scroll feel across sections.
+
+## Author
+Built by Aastha Bhatia
+Special thanks to sherianscodingschool for the tutorials.
