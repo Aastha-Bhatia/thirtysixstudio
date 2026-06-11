@@ -1,0 +1,25 @@
+- basic react app ✅
+- tailwind css setup ✅
+- create app component ✅
+- download all images from thirtysixstudios ✅
+  - inspect, network, images, right click-copy all listed as har, open a new tab and search "download all images from network tab github"- you'll see an article on github... 
+  - let har= paste all that you copied.. on console... 
+  - when on enter, undefined comes... 
+  - paste url code from github article... 
+  - we will get all the urls from har links... 
+  - we have all the urls.. 
+  - paste them in a file named canvasimages.js, create an array by putting commas at the end and enclosing each link in double commas.. and enclose them in brackets... using find and replace tool... 
+  - export default {the array}
+
+- make images in an array ✅
+
+- create canvas component
+  - install gsap for animation... npm i gsap ✅
+  - load first 150 images and show in the canvas ✅
+  - animate the canvas 
+  - locomotive v5 for smooth scrolling... 
+    - npm install locomotive-scroll@beta
+  - make canvas dynamic so that it loads 150 images from desired index 
+  - reuse the canvas component to create a new canvas as many times as you want
+
+   
