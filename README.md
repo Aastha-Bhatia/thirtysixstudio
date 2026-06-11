@@ -2,6 +2,9 @@
 
 A polished React landing experience for a boutique digital production studio. This project combines smooth scrolling, animated canvas visuals, and an immersive brand presentation using React, GSAP, Tailwind CSS, and Locomotive Scroll.
 
+## Preview 
+![Demo Video](https://github.com/Aastha-Bhatia/thirtysixstudio/videopreview.mp4)
+
 ## Features
 
 - Responsive React + Vite app
