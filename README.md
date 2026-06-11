@@ -3,7 +3,8 @@
 A polished React landing experience for a boutique digital production studio. This project combines smooth scrolling, animated canvas visuals, and an immersive brand presentation using React, GSAP, Tailwind CSS, and Locomotive Scroll.
 
 ## Preview 
-![Demo Video](https://github.com/Aastha-Bhatia/thirtysixstudio/blob/main/videopreview.mp4)
+
+https://github.com/user-attachments/assets/60581552-6661-44e9-82d4-656b64554aeb
 
 ## Features
 
